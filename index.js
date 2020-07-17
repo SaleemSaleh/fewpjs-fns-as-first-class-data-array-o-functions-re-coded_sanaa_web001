@@ -38,8 +38,7 @@ function exerciseDog  (dogName , dogBreed) {
   console.log(routine.lenght);
     let array = [];
   for (let i = 0; i < routine.lenght ; i++ ){
-    let func = routine[i] ;
-    let string = func(dogName,dogBreed);
+    let string = routine[i](dogName,dogBreed);
     array.push(string);
   }
   return array ;
