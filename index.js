@@ -43,4 +43,4 @@ function exerciseDog  (dogName,dogBreed) {
   return array ;
 }
 
-let array = exerciseDog  (dogName,dogBreed)
+let array = exerciseDog  (dogName,dogBreed);
