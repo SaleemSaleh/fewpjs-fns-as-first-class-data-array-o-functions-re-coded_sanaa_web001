@@ -40,4 +40,3 @@ function exerciseDog  (dogName,dogBreed) {
   }
   return array ;
 }
-  
