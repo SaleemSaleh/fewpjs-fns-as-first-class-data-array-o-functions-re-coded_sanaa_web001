@@ -29,9 +29,11 @@ function unleashDog(dogName, dogBreed) {
     return string ;
 }
 
+let routine = [wakeDog() ,leashDog() ,walkToPark() ,throwFrisbee()
+,walkHome(),unleashDog()] ;
+
+
 function exerciseDog  (dogName,dogBreed) {
-  let routine = [wakeDog() ,leashDog() ,walkToPark() ,throwFrisbee()
-  ,walkHome(),unleashDog()] ;
     let array = [];
   for (let i = 0; i <routine.lenght ; i++ ){
     let func = routine[i] ;
